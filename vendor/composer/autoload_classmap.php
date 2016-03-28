@@ -20,5 +20,6 @@ return array(
     'Phroute\\Phroute\\RouteDataInterface' => $vendorDir . '/phroute/phroute/src/Phroute/RouteDataInterface.php',
     'Phroute\\Phroute\\RouteDataProviderInterface' => $vendorDir . '/phroute/phroute/src/Phroute/RouteDataProviderInterface.php',
     'Phroute\\Phroute\\RouteParser' => $vendorDir . '/phroute/phroute/src/Phroute/RouteParser.php',
+    'User' => $baseDir . '/app/models/User.php',
     'View' => $baseDir . '/lib/View.php',
 );

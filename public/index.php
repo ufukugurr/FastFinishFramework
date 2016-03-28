@@ -6,6 +6,20 @@ use Phroute\Phroute\Dispatcher;
 require __DIR__ . '/../vendor/autoload.php';
 $settings  = require __DIR__ . '/../config/settings.php';
 
+//ActiveRecords ORM
+
+ActiveRecord\Config::initialize(function($cfg)
+{
+   $cfg->set_model_directory(__DIR__ . '/../app/models');
+   $cfg->set_connections([
+       'development' => 'mysql://root:@localhost/fff',
+    ]
+   );
+});
+ActiveRecord\Config::initialize(function($cfg)
+{
+  $cfg->set_default_connection('development');
+});
 
 //Router
 $router = new RouteCollector();

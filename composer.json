@@ -1,13 +1,14 @@
 {
     "require": {
-        "phroute/phroute": "^2.1"
+        "phroute/phroute": "^2.1",
+        "php-activerecord/php-activerecord": "^1.1"
     },
 
     "autoload": {
-    	"classmap": [
-    		"lib",
-    		"app/controllers",
-    		"app/models"
-    	]
+        "classmap": [
+            "lib",
+            "app/controllers",
+            "app/models"
+        ]
     }
 }

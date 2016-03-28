@@ -1,7 +1,4 @@
 <?php
-/**
-* Index Controller
-*/
 class IndexController
 {
 	function home()
@@ -11,6 +8,8 @@ class IndexController
 
 	function name($name)
 	{
+		//$user = User::find(1);
+		//echo $user->name;
 		return "Hello ".$name;
 	}
 }
