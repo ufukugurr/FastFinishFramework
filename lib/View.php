@@ -6,7 +6,10 @@ class View
 {
 	function get($template, $data = null)
 	{
-		extract($data);
+		if (isset($data)) {
+			extract($data);
+		}
 		include __DIR__ . '/../app/views/'.$template.'.php';
+
 	}
 }

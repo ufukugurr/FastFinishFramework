@@ -1,5 +1,5 @@
 <?php
 
 
-$router->get('/', ['UserController','displayUser']);
-//$asd = new UserController();
+$router->get('/', ['IndexController','home']);
+$router->get('/{name}', ['IndexController','name']);

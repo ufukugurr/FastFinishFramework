@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'IndexController' => $baseDir . '/app/controllers/IndexController.php',
     'Phroute\\Phroute\\Dispatcher' => $vendorDir . '/phroute/phroute/src/Phroute/Dispatcher.php',
     'Phroute\\Phroute\\Exception\\BadRouteException' => $vendorDir . '/phroute/phroute/src/Phroute/Exception/BadRouteException.php',
     'Phroute\\Phroute\\Exception\\HttpException' => $vendorDir . '/phroute/phroute/src/Phroute/Exception/HttpException.php',
@@ -19,6 +20,5 @@ return array(
     'Phroute\\Phroute\\RouteDataInterface' => $vendorDir . '/phroute/phroute/src/Phroute/RouteDataInterface.php',
     'Phroute\\Phroute\\RouteDataProviderInterface' => $vendorDir . '/phroute/phroute/src/Phroute/RouteDataProviderInterface.php',
     'Phroute\\Phroute\\RouteParser' => $vendorDir . '/phroute/phroute/src/Phroute/RouteParser.php',
-    'UserController' => $baseDir . '/app/controllers/UserController.php',
     'View' => $baseDir . '/lib/View.php',
 );
