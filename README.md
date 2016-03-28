@@ -78,7 +78,7 @@ $posts = Post::find('all',array('conditions' => array('name=? or id > ?','The Br
 <?php
 use ActiveRecord\Model as ActiveRecord;
 
-class User extends ActiveRecord
+class Post extends ActiveRecord
 {
 	
 }
