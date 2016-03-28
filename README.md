@@ -55,7 +55,6 @@ class IndexController
 ```
 
 ## Dabase ORM
-
 These are your basic methods to find and retrieve records from your database. See the Finders section for more details.
 ```php
 $post = Post::find(1);
@@ -73,6 +72,18 @@ $post = Post::find_by_name_or_id('The Bridge Builder',100);
 finding using a conditions array
 $posts = Post::find('all',array('conditions' => array('name=? or id > ?','The Bridge Builder',100)));
 ```
+
+### Model
+```php
+<?php
+use ActiveRecord\Model as ActiveRecord;
+
+class User extends ActiveRecord
+{
+	
+}
+```
+
 ### Create
 
 Here we create a new post by instantiating a new object and then invoking the save() method.
