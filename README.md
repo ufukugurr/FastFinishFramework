@@ -5,6 +5,8 @@ FF Framework is a PHP micro-framework that helps you quickly write simple yet po
 This fast and beautiful.
 
 ## File System
+Simple file system.
+
 - app
   * controllers
   * models
