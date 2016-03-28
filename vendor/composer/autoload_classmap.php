@@ -19,6 +19,6 @@ return array(
     'Phroute\\Phroute\\RouteDataInterface' => $vendorDir . '/phroute/phroute/src/Phroute/RouteDataInterface.php',
     'Phroute\\Phroute\\RouteDataProviderInterface' => $vendorDir . '/phroute/phroute/src/Phroute/RouteDataProviderInterface.php',
     'Phroute\\Phroute\\RouteParser' => $vendorDir . '/phroute/phroute/src/Phroute/RouteParser.php',
-    'Route' => $baseDir . '/lib/Route.php',
+    'UserController' => $baseDir . '/app/controllers/UserController.php',
     'View' => $baseDir . '/lib/View.php',
 );
